@@ -41,3 +41,5 @@ pipeline:
                     repo: abhignakatta/ci-docker-practice
                     tags:
                       - v1
+        delegateSelectors:
+          - docker-delegate
